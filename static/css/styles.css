@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(45, 52, 58);
+    text-align: center;
+}
+p{
+    font-size: 1.6em;
+    
+    color: white;
+    margin: 20px;
+}
+img{
+    margin: 60px 0px 30px 0px;
+    width: 350px;
+}
+
+.text{
+    margin: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 300px;
+    transition: all .2s ease-in;
+}
+.text:focus{
+    border: 5px solid lightseagreen;
+    
+}
+.submit{
+    font-size: large;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    color: white;
+    box-sizing: border-box;
+    align-items: center;
+    border: none;
+    padding: 10px 20px;
+    background-color: palevioletred;
+    cursor: pointer; 
+}
+.submit:hover{
+    letter-spacing: 3px;
+    transition: all .2s ease-in-out;
+}
+
